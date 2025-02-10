@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             agent { label 'Ansible node' }
             steps {
-                git url: 'https://github.com/sharook-98/GitHub-actions-usecases.git', branch: 'main'
+                git url: 'https://github.com/Hemalatha0411/jenkins-cicd-uc.git', branch: 'main'
             }
         }
 
